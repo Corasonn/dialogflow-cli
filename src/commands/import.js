@@ -6,7 +6,7 @@ import { handleArguments } from "../globalFlags";
 
 // Given a path, compress the files at the path and make a string of the
 // contents.
-const makeArchive = async path => {
+export const makeArchive = async path => {
   const archive = archiver("zip", {});
   const zipStringPromise = getRawBody(archive);
 
