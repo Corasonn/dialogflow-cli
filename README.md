@@ -32,6 +32,13 @@ Imports the DialogFlow agent from the folder to the project under the account
 accessed by the credential file from the folder test.
 
     dialogflow-cli import --credentials ./credentials.json test/
+    
+### Restore
+
+REstores the DialogFlow agent from the folder to the project under the account
+accessed by the credential file from the folder test.
+
+    dialogflow-cli restore --credentials ./credentials.json test/
 
 [build-status-image]: https://img.shields.io/circleci/project/github/0xcaff/dialogflow-cli/master.svg
 [build-status]: https://circleci.com/gh/0xcaff/dialogflow-cli
