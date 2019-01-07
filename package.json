@@ -2,8 +2,8 @@
   "name": "dialogflow-cli",
   "version": "1.0.4",
   "bin": {
-    "dialogflow-cli": "./lib/bin/index.js",
-    "dialogflow": "./lib/bin/index.js"
+    "dialogflow-cli": "./src/bin/index.js",
+    "dialogflow": "./src/bin/index.js"
   },
   "description": "A command line tool to import and export a Dialogflow agent.",
   "main": "index.js",
